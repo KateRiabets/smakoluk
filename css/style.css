@@ -12,7 +12,7 @@ body {
 
 
 .section-1 {
-    height: 100vh;
+    height: 1080px;
     background-image: url('bg.jpg');
     background-size: cover;
 
@@ -479,7 +479,7 @@ font-size: 100%;
 
 
 .section-2 {
-    height: 100vh;
+    height: 1080px;
     background-color: #324028;
     display: flex;
     justify-content: center;
@@ -727,7 +727,7 @@ font-size: 100%;
 
 
 .section-3 {
-    height: 100vh;
+    height: 1080px;
     background-color: #D9D1C7;
 }
 

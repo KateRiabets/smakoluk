@@ -131,7 +131,7 @@ body {
 
 @media (max-width: 1230px) {
     .menu-2_green ul li.logo-in-menu {
-        margin-top: -20px; /* измените значение по вашему желанию */
+        margin-top: -20px; 
         margin-left: 20px;
         width:20vw;
         height: auto;
@@ -165,23 +165,23 @@ body {
 /* Конец кнопки */
 
 
-/* скрываем чекбокс */
+
 #menu_green__toggle {
     opacity: 0;
 }
-/* стилизуем кнопку */
+
 .menu_green__btn {
     display: flex;
     align-items: center;
     position: absolute;
     top: calc(20px + (80px / 2) - (4vh / 2));
-    right: 50px; /* увеличил отступ справа */
+    right: 50px; 
     width: 4vw;
     height: 4vh;
     cursor: pointer;
     z-index: 3;
 }
-/* добавляем "гамбургер" */
+
 
  
 .menu_green__btn > span,
@@ -204,7 +204,7 @@ body {
     top: 8px;
 }
 
-/* контейнер меню */
+
 .menu_green__box {
     display: block;
     position: fixed;
@@ -222,7 +222,7 @@ body {
     z-index: 2;
 
 }
-/* элементы меню */
+
 .menu_green__item {
     display: block;
     padding: 12px 24px;
@@ -232,7 +232,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #324028;
-    border-bottom: 1px solid #324028; /* добавляем горизонтальную линию между пунктами меню */
+    border-bottom: 1px solid #324028;
 }
 
 
@@ -271,7 +271,7 @@ menu_green__toggle:checked ~ .menu_green__btn > span {
 
 @media screen and (min-width: 1230px) {
 
-    /* стили для экранов меньше 12830 пикселей */
+  
     #menu_green__toggle {
         display: none;
     }
@@ -312,15 +312,15 @@ menu_green__toggle:checked ~ .menu_green__btn > span {
         position: absolute;
         top: 20px;
         left: 50px;
-        width: 189px; /* changed from 220px to 210px */
+        width: 189px; 
         height: 72px;
         z-index: 4;
     }
 
     .menu_green__btn {
         position: absolute;
-        top: calc(20px + (80px / 2) - (4vh / 2)); /* выравниваем по вертикальному центру логотипа */
-        right: 50px; /* увеличил отступ справа */
+        top: calc(20px + (80px / 2) - (4vh / 2)); 
+        right: 50px; 
         width: 4vw;
         height: 4vh;
         cursor: pointer;
@@ -446,7 +446,7 @@ p {
 
     .row2-1 {
         flex-direction: column;
-        gap: 15px; /* добавляем расстояние между элементами */
+        gap: 15px; 
         padding-left: 30px;
     }
     .row2-2 {

@@ -87,7 +87,7 @@
     border: 2px solid #324028;
     background-color: transparent;
     overflow: hidden;
-    max-width: 100%; /* измененное свойство */
+    max-width: 100%; 
     min-height: 52px;
     max-height: 92px;
     min-font-size: 20px;
@@ -117,7 +117,7 @@
 @media (max-width: 490px) {
     .container_tovar .button2 {
         font-size: min(max(20px, calc(4vw)), 2.6rem);
-        width: 100%; /* измененное свойство */
+        width: 100%; 
     }
 }
 

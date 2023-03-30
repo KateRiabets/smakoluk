@@ -193,13 +193,13 @@ h1{
 }
 
 .button1 h1 {
-    font-size: calc(4vw + 0.5rem); /* Обновлено: добавлено 0.5rem */
+    font-size: calc(4vw + 0.5rem); 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    min-font-size: 20px; /* Обновлено: добавлено минимальное значение размера шрифта */
+    min-font-size: 20px; 
 }
 
 .button1::before {
@@ -252,11 +252,11 @@ h1{
 #menu__toggle {
     opacity: 0;
 }
-/* стилизуем кнопку */
+
 .menu__btn {
     display: none;
 }
-/* добавляем "гамбургер" */
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -277,7 +277,7 @@ h1{
     top: 8px;
 }
 
-/* контейнер меню */
+
 .menu__box {
     display: block;
     position: fixed;
@@ -295,7 +295,7 @@ h1{
     z-index: 2;
 
 }
-/* элементы меню */
+
 .menu__item {
     display: block;
     padding: 12px 24px;
@@ -305,7 +305,7 @@ h1{
     font-weight: 600;
     text-decoration: none;
     color: white;
-    border-bottom: 1px solid #fff; /* добавляем горизонтальную линию между пунктами меню */
+    border-bottom: 1px solid #fff; 
 }
 
 
@@ -400,7 +400,7 @@ menu__toggle:checked ~ .menu__btn > span {
         position: absolute;
         top: 20px;
         left: 50px;
-        width: 189px; /* changed from 220px to 210px */
+        width: 189px;
         height: 72px;
         z-index: 4;
     }
@@ -408,8 +408,8 @@ menu__toggle:checked ~ .menu__btn > span {
     .menu__btn {
         display : flex;
         position: absolute;
-        top: calc(20px + (80px / 2) - (4vh / 2)); /* выравниваем по вертикальному центру логотипа */
-        right: 50px; /* увеличил отступ справа */
+        top: calc(20px + (80px / 2) - (4vh / 2)); 
+        right: 50px; 
         width: 4vw;
         height: 4vh;
         cursor: pointer;
@@ -433,7 +433,7 @@ menu__toggle:checked ~ .menu__btn > span {
         position: absolute;
         top: 20px;
         left: 50px;
-        width: 189px; /* changed from 220px to 210px */
+        width: 189px; 
         height: 72px;
         z-index: 2;
     }
@@ -441,8 +441,8 @@ menu__toggle:checked ~ .menu__btn > span {
     .menu__btn {
         display : flex;
         position: absolute;
-        top: calc(20px + (80px / 2) - (4vh / 2)); /* выравниваем по вертикальному центру логотипа */
-        right: 50px; /* увеличил отступ справа */
+        top: calc(20px + (80px / 2) - (4vh / 2)); 
+        right: 50px; 
         width: 4vw;
         height: 4vh;
         cursor: pointer;
@@ -511,7 +511,7 @@ font-size: 100%;
 }
 
 .button2 h1 {
-    font-size: calc(4vw + 0.5rem); /* Обновлено: добавлено 0.5rem */
+    font-size: calc(4vw + 0.5rem); 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -895,13 +895,13 @@ font-size: 100%;
 }
 
 .button3 h1 {
-    font-size: calc(4vw + 0.5rem); /* Обновлено: добавлено 0.5rem */
+    font-size: calc(4vw + 0.5rem); 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    min-font-size: 20px; /* Обновлено: добавлено минимальное значение размера шрифта */
+    min-font-size: 20px; 
 }
 
 .button3::before {
@@ -1186,43 +1186,6 @@ font-size: 100%;
 				
 				
 /*------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-	
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

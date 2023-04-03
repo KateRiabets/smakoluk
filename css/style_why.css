@@ -13,6 +13,9 @@ body {
 
 }
 
+
+
+
 .section_green {
     height: 100%;
     background-color: #D9D1C7;
@@ -219,7 +222,7 @@ body {
     text-align: center;
     background-color: #D9D1C7;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, .7);
-    z-index: 2;
+    z-index: 3;
 
 }
 
@@ -293,12 +296,14 @@ menu_green__toggle:checked ~ .menu_green__btn > span {
 .logo_green {
 
     display: none;
+    z-index: 2;
 
 }
 
 .logo_green img {
     max-width: 100%;
     height: auto;
+    z-index: 2;
 }
 .logo_green {
     display: none;
@@ -314,7 +319,7 @@ menu_green__toggle:checked ~ .menu_green__btn > span {
         left: 50px;
         width: 189px; 
         height: 72px;
-        z-index: 4;
+        z-index: 2;
     }
 
     .menu_green__btn {
@@ -324,7 +329,7 @@ menu_green__toggle:checked ~ .menu_green__btn > span {
         width: 4vw;
         height: 4vh;
         cursor: pointer;
-        z-index: 3;
+        z-index: 5;
     }
 }
 

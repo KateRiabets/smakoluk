@@ -88,7 +88,7 @@
     border: 2px solid #324028;
     background-color: transparent;
     overflow: hidden;
-    max-width: 100%; 
+    max-width: 100%;
     min-height: 52px;
     max-height: 92px;
     min-font-size: 20px;
@@ -118,7 +118,7 @@
 @media (max-width: 490px) {
     .container_tovar .button2 {
         font-size: min(max(20px, calc(4vw)), 2.6rem);
-        width: 100%; 
+        width: 100%;
     }
 }
 
@@ -217,24 +217,35 @@
 }
 
 
+.star2.selected::before {
+    color: transparent;
+}
+
+.star2.selected::after {
+    width: 100%;
+}
+
+
 
 .stars2 {
     font-size: 30px;
     color: #D9D1C7;
     margin-top: -20px;
+    direction: rtl; /* Добавьте это свойство */
 }
 
 .star2 {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    margin-left: 10px;
-    margin-right: -25px;
+    margin-left: 10px; /* Уменьшено с 20px */
 }
 
 .star2::before {
     content: "\2606";
     color: #324028;
+    position: absolute;
+    z-index: 1;
 }
 
 .star2::after {
@@ -249,13 +260,14 @@
 
 .star2:hover::before,
 .star2:hover ~ .star2::before {
-    color: #D9D1C7;
+    color: transparent;
 }
 
 .star2:hover::after,
 .star2:hover ~ .star2::after {
     width: 100%;
 }
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -339,5 +351,36 @@
         text-align: center;
         max-width: 100%;
     }
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comment-name,
+.comment-rating {
+    display: inline-block; }
+
+.comment-rating {font-size:120%;}
+
+.comment { width: 100%; border-bottom: 1px solid rgba(50,64,40,0.5);}
+
+.comment p { text-align: left;  }
+.comment .comment-name {margin-bottom: -0.5%; margin-top: 1%; font-weight: 600;}
+.comment .comment-text {margin-top: -2%; margin-bottom: 1.5%; font-weight: 300; font-size: 90%; }
+
+.button-container {margin-bottom: -3%;}
+
+
+.rating-stars {}
